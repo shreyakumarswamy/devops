@@ -1,14 +1,17 @@
 1. 
 git init
-git remote  add origin URL
-git config --global user.email"  "
+git remote add origin URL
+git config --global user.email "vvce22ise0020@vvce.ac.in"
+git config --global user.name "shreyakumarswamy"
+vi sa.txt
+cat sa.txt
 git add .
-git commit -m"version1"
-git push  origin master/main 
-git clone URL
+git commit -m "version1"
 git status
 git log
 git reset --hard ID
+git push  origin master/main 
+git clone URL
 
 2. 
 git checkout -b branch1
