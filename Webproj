@@ -10,7 +10,7 @@ git commit -m "version1"
 git status
 git log
 git reset --hard ID
-git push  origin master/main 
+git push origin master/main 
 git clone URL
 
 2. 
