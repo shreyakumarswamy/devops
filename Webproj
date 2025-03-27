@@ -31,3 +31,9 @@ CMD ["java","Add"]
 
 docker build -t img1 .
 docker run img1
+
+
+FROM python
+WORKDIR /app
+COPY . /app
+CMD ["python","add.py"]
